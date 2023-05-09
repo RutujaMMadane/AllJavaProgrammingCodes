@@ -1,0 +1,22 @@
+package LambdaEx;
+
+interface Sayable
+{
+	void say();
+}
+
+public class MethodReferenceExmple {
+
+   public  MethodReferenceExmple() {
+
+		System.out.println("Hello, this is static method.");
+	}
+
+	public static void main(String[] args) {
+		
+		Sayable sayable=MethodReferenceExample::new;
+		sayable.say();
+
+	}
+
+}

@@ -1,0 +1,32 @@
+package UnitTesting;
+import static org.junit.Assert.*;
+import org.junit.Test;
+import junit.framework.TestCase;
+import junit.framework.TestResult;
+
+public class CounterTest extends TestCase {
+	
+	public CounterTest()
+	{
+		
+	}
+    protected void setUp() 
+    {
+    	@Test
+        public void testIncrement()
+    	{
+    		assertTrue(Counter.increment()==1);
+    		assertTrue(Counter.increment()==2);
+    	}
+    	@Test
+    	public void testDecrement()
+    	{
+    		assertTrue(Counter.decrement()==-1);
+    		assertTrue(Counter.decrement()==-2);
+    	}
+    	
+    }
+	
+	
+}
+ 

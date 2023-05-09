@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\madan\eclipse-workspace\HibernateOnetoManyMapping\src\main\java\com\main\AppMain.java"/>
+			<item value="C:\Users\madan\eclipse-workspace\HibernateNamedQuery\src\main\java\com\main\AppMain.java"/>
+			<item value="C:\Users\madan\eclipse-workspace\HibernatenamedQueryExample\src\main\java"/>
+			<item value="C:\Users\madan\eclipse-workspace\HibernatenamedQueryExample\src\main\resources\config.xml"/>
+			<item value="C:\Users\madan\eclipse-workspace\HibernateValidationExample\pom.xml"/>
+			<item value="C:\Users\madan\eclipse-workspace\HTML\public\Frame.html"/>
+			<item value="C:\Users\madan\eclipse-workspace\HTML\public\list.html"/>
+			<item value="C:\Users\madan\eclipse-workspace\DesignPattern"/>
+			<item value="C:\Users\madan\eclipse-workspace\FirstMockitoProject"/>
+			<item value="C:\Users\madan\eclipse-workspace\HTML\public\tableTask2.html"/>
+			<item value="C:\Users\madan\eclipse-workspace\FirstMockitoProject\src\main\java\com\demo\MainApplication.java"/>
+			<item value="C:\Users\madan\eclipse-workspace\JavaFirstProject"/>
+			<item value="C:\Users\madan\eclipse-workspace\FirstProject\pom.xml"/>
+			<item value="C:\Users\madan\eclipse-workspace\FirstProject"/>
+			<item value="C:\Users\madan\eclipse-workspace\JavaFirstProject\src\Collection"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="com.demo"/>
+		</list>
+		<list key="name">
+			<item value="HibernateManyToMany"/>
+			<item value="HibernateOnetoManyMapping"/>
+			<item value="HibernateOnetoOneMappingExample"/>
+			<item value="HibernateNamedQuery"/>
+			<item value="HibernatenamedQueryExample"/>
+			<item value="HibernateValidationExample"/>
+			<item value="HibernateHbmExample"/>
+			<item value="HibernateFirstExample"/>
+		</list>
+		<list key="artifactId">
+			<item value="HibernateManyToMany"/>
+			<item value="HibernateOnetoManyMapping"/>
+			<item value="HibernateOnetoOneMappingExample"/>
+			<item value="HibernateNamedQuery"/>
+			<item value="HibernatenamedQueryExample"/>
+			<item value="HibernateValidationExample"/>
+			<item value="HibernateHbmExample"/>
+			<item value="HibernateFirstExample"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="667"/>
+		<item key="x" value="720"/>
+		<item key="y" value="71"/>
+	</section>
+	<section name="org.eclipse.m2e.editor.dialogs.ManageDependenciesDialog">
+		<item key="width" value="979"/>
+		<item key="height" value="450"/>
+		<item key="x" value="471"/>
+		<item key="y" value="215"/>
+	</section>
+</section>

@@ -1,0 +1,14 @@
+package Inheritence;
+
+public class Student extends Person{
+	private int attendence;
+	private int m1,m2,m3;
+	public Student()
+	{
+		
+	}
+	public Student(int id, String pname, String address, String city, String state,int attendence, int m1,int m2,int m3)
+	{
+		
+	}
+}

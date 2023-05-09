@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<script>
+function fun(...input){
+	let sum=0;
+	for(let i of input){
+		sum+=1;
+	}
+	return sum;
+}
+console.log(fun(1,2));
+console.log(fun(1,2,3));
+console.log(fun(1,2,3,4,5));
+</script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+package Inheritence;
+
+public class PersonMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Student s=new Student();
+		s.getId();
+		s.getPname();
+		s.getAddress();
+		System.out.println(s);
+		
+		Staff s1=new Staff();
+		s1.getAttendances();
+		s1.getExperince();
+		System.out.println(s1);
+	}
+
+}

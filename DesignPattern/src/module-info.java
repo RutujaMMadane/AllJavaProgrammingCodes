@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author madan
+ *
+ */
+module DesignPattern {
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<script>
+function Employee()
+{
+	this.name='Arun';
+	this.role='QA';
+	}
+
+    var empObj1=new Employee();
+    empObj1.salary=30000;
+    console.log(empObj1.salary);
+    
+    var empObj2=new Employee();
+    console.log(empObj2.salary);
+    undefined 
+    Employee.prototype.salary=239000;
+    console.log(empObj2.salary);
+    
+</script>    
+</body>
+</html>

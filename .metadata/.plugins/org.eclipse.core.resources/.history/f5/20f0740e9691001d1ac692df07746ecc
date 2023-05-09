@@ -1,0 +1,25 @@
+package Assessment;
+import java.util.*;
+public class Pattern {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int col;
+		int row;
+		for(row=1;row<=3;row++)
+		{
+			for(col=row-1;col<=row;col++)
+			
+			{
+				System.out.print(" ");
+			}
+			for(col=1;col<=row;col++)
+			{
+				System.out.print(row+" ");
+			}
+			System.out.println();
+		}	
+	}
+	
+
+}

@@ -1,0 +1,27 @@
+package Assessment;
+import java.util.*;
+public class Pattern {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		
+		int a,j;
+		a=sc.nextInt();
+		
+		for(a=1;a<=3;a++)
+		{
+			for(j=1;j>=a;j--)
+			{
+				System.out.println(" ");
+			}
+			for(j=1;j<=a;j++)
+			{
+				System.out.println(a+" );
+			}
+			System.out.println();
+		}
+		sc.close();
+	}
+
+}

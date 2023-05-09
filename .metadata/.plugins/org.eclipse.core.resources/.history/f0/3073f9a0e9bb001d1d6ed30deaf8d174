@@ -1,0 +1,47 @@
+package Service;
+
+import java.sql.SQLException;
+import java.util.List;
+import java.util.Scanner;
+
+import com.deo.impl.IPLDaoImpl;
+import com.entity.IPL;
+
+public class IplService {
+	
+	public List<IPL>ViewAll() throws ClassNotFoundException, SQLException
+	{
+	List<IPL> list=new IPLDaoImpl().findAll();	
+	
+	  for(IPL i:list)
+	  {
+		System.out.println(i);
+	  }
+	}
+	public void insertIPl() throws ClassNotFoundException, SQLException
+	{
+		
+		
+	}
+	public void updateIPl() throws ClassNotFoundException, SQLException
+	{
+		IPL i=new IPL();
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the team_name");
+		String teamname=sc.next();
+		System.out.println("Enter the city");
+		String city=sc.next();
+		System.out.println("Enter the state");
+		String state=sc.next();
+		System.out.println("Enter the id");
+		int teamid=sc.nextInt();
+		i.setTeamid(teamid);
+		i.setTname(teamname);
+		i.setCity(city);
+		i.setState(state);
+		new IPLDaoImpl().updateIPL(i);
+				
+	}
+	
+
+}

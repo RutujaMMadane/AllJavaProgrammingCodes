@@ -1,0 +1,11 @@
+@charset "UTF-8";
+h1
+{
+	color:cyan;
+	text-align:center;
+	font-size:23px;
+	border:2px solid black;
+	outline-width:2px;
+	padding:25px;
+	margin:5px;
+}
